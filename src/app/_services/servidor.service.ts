@@ -262,7 +262,7 @@ export class ServidorService {
   }
 
   getTramitesAllDepartamentos(){
-    return this.http.get('http://localhost:3000/tramites/getTramitesAll')
+    return this.http.get('http://172.16.3.43:3000/tramites/getTramitesAll')
   }
 
   getrequisitosByTramiteGob(id){
