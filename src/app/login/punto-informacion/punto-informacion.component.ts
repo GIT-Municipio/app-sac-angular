@@ -87,6 +87,7 @@ export class PuntoInformacionComponent implements OnInit {
     if (item == 'Todos') {
       this.lista = this.lista2;
     } else {
+      this.lista = this.lista2;
       for (var i = 0; i < this.lista.length; i++) {
         if (this.lista[i].nombre_departamento == item) {
           Busqueda.push(this.lista[i]);
