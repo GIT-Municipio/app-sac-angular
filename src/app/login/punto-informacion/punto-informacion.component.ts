@@ -32,6 +32,7 @@ export class PuntoInformacionComponent implements OnInit {
       this.conversion = data;
       this.lista = this.conversion;
       this.lista2 = this.lista;
+      console.log(this.lista);
     });
   }
 
@@ -95,6 +96,5 @@ export class PuntoInformacionComponent implements OnInit {
       }
       this.lista = Busqueda;
     }
-    console.log(this.lista)
   }
 }
